@@ -1,0 +1,40 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "node-env-run": "^4.0.2"
+  },
+  "scripts": {
+    "server": "node-env-run server"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.7",
+    "node-sass": "^9.0.0"
+  }
+}
